@@ -46,6 +46,8 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
+  directors_totals(directors_database)
+  list_of_directors(directors_database)
   
 end
 
