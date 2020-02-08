@@ -46,14 +46,7 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  names = list_of_directors(directors_database)
-  dir_total_hashes = [directors_totals(directors_database)]
   
-  index = 0 
-    while index < list_of_directors.length
-      puts list_of_directors[index]
-    index += 1 
-    end 
 end
 
 
