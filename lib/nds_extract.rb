@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
-relative 
+relative 'pry'
 def directors_totals(source)
   result = {}
   director_index = 0
@@ -53,7 +53,7 @@ index = 0
   while index < names.length 
    puts hash_totals[names[index]]
    index += 1 
-  binding.
+  binding.pry 
   end 
 end
 
