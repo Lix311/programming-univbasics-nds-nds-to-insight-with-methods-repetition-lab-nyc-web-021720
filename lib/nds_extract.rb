@@ -48,13 +48,14 @@ def total_gross(source)
   
 hash_totals = directors_totals(directors_database)
 names = list_of_directors(directors_database)
-
+total = 0 
 index = 0 
   while index < names.length 
-   puts hash_totals[names[index]]
+   total += hash_totals[names[index]]
    index += 1 
-  binding.pry 
+  #binding.pry 
   end 
+return total 
 end
 
 
