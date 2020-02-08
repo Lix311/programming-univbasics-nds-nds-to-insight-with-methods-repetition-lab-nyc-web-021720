@@ -47,7 +47,7 @@ def total_gross(source)
   # return the total
   
   directors_totals(directors_database)
-  list_of_directors(directors_database)
+  
   
 end
 
